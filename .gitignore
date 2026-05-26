@@ -1,0 +1,60 @@
+# -------- Arduino / ESP32 --------
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.a
+*.d
+*.log
+
+# Arduino IDE / build artifacts
+*.ino.cpp
+*.ino.cpp.d
+/build/
+/out/
+
+# PlatformIO
+.pio/
+.vscode/
+
+# -------- Local firmware config / secrets --------
+# Keep real credentials out of git
+src/config.h
+config.h
+*.pem
+*.key
+*.crt
+
+# -------- KiCad --------
+*.kicad_prl
+*.kicad_prl-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.tmp
+*.bak
+__pycache__/
+fp-info-cache
+
+# -------- Fusion 360 / CAD exports --------
+*.f3d
+*.f3z
+*.step
+*.stp
+*.iges
+*.igs
+*.stl
+*.obj
+
+# -------- OS / editor --------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# -------- Environment / local state --------
+.env
+.env.*
+*.local
