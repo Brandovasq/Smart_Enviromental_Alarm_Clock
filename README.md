@@ -1,6 +1,6 @@
 # Light-Responsive Alarm System (ESP32)
 
-![Three display modes](docs/images/00-project-preview-three-modes-stacked-v4.png)
+![Light-responsive alarm project preview](docs/images/00-project-preview-three-modes.png)
 
 ## Overview
 
