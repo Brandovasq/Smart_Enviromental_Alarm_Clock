@@ -1,8 +1,29 @@
-# src/
+# Firmware
 
-Place the ESP32 Arduino firmware source files for the alarm clock in this directory.
+The ESP32 Arduino sketch is in:
 
-Recommended pattern:
-- main sketch/source files
-- module headers/sources (RTC, sensors, display, alarm logic)
-- local `config.h` copied from `config_example.h` (do not commit `config.h`)
+```text
+src/light_responsive_alarm/light_responsive_alarm.ino
+```
+
+## Setup
+
+1. Open the sketch folder in the Arduino IDE.
+2. Copy `config_example.h` to `config.h`.
+3. Add your local Wi-Fi name and password to `config.h`.
+4. Select an ESP32 development board target.
+5. Install the required Arduino libraries.
+6. Build and upload.
+
+## Main Libraries
+
+- WiFi
+- HTTPClient
+- ArduinoJson
+- Wire
+- LiquidCrystal_I2C
+- RTClib
+- DHT
+- time.h
+
+`config.h` is ignored by git so real Wi-Fi credentials stay local.

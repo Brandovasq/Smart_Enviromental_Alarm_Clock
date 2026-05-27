@@ -1,8 +1,14 @@
-# cad/
+# CAD Enclosure
 
-Store Fusion 360 enclosure assets here.
+The alarm enclosure was designed in Fusion 360 to make the prototype closer to a finished physical product.
 
-Suggested contents:
-- design screenshots
-- exported STEP/STL files for review or printing
-- assembly fitment images
+Design goals:
+
+- Provide a front LCD opening.
+- Place the button and sensors where they can be accessed/read.
+- Add openings for buzzer sound.
+- Leave room for internal wiring and modules.
+- Provide USB-C access for power/programming.
+- Keep the assembly practical after 3D printing.
+
+CAD screenshots and render exports are included in `docs/images/`.

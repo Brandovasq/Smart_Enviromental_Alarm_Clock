@@ -22,6 +22,7 @@
 # -------- Local firmware config / secrets --------
 # Keep real credentials out of git
 src/config.h
+src/light_responsive_alarm/config.h
 config.h
 *.pem
 *.key
